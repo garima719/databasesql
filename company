@@ -1,0 +1,5 @@
+import sqlite3
+
+def createDB():
+conn = sqlite3.connect('company_employee.db')
+print('Database Created')
